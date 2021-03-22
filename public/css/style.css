@@ -1,0 +1,83 @@
+/*home css*/
+*{
+    text-align: center;
+    color: black;
+    text-shadow: white 2px 2px 2px;
+}
+
+li {
+    display: inline;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #dddddd;
+  }
+  img{
+      height: 400px;
+      width: 300px;
+  }
+/*end*/
+/*About css*/
+*{
+    text-align: center;
+}
+body{
+    background-image: url('https://www.mcclureinsure.com/wp-content/uploads/2014/05/Blurred-Background-Light.jpg');
+}
+.masthead{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.introduction{
+    background-color:grey;
+    color: black;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+}
+.location{
+    background-color:grey;
+    color: black;
+    font-family: 'Times New Roman';
+    font-size: 15px;}
+.questions{
+    background-color:grey;
+    color: black;
+    font-family: 'Times New Roman';
+    font-size: 15px;}
+
+li {
+  display: inline;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  display: inline-block;
+  padding: 10px;
+  background-color: #dddddd;
+}
+/*end*/
+/*contact css*/
+li {
+    display: inline;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #dddddd;
+  }
+/*end*/
