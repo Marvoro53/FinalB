@@ -1,6 +1,9 @@
 var express= require('express');
 var app= express();
 var path= require('path');
+let app = express();
+app.set("view engine", "pug");
+
 
 var PORT = 8080;
 
