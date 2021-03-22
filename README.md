@@ -6,6 +6,6 @@ Marvin Lara
 
 ## Installation
 
-Clone into your terminal with git clone [](https://github.com/Marvoro53/FinalB.git) to install.
+Clone into your terminal with git clone [https://github.com/Marvoro53/FinalB.git](https://github.com/Marvoro53/FinalB.git) to install.
 cd FinalB
 nose app
