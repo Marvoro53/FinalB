@@ -4,6 +4,10 @@
     color: black;
     text-shadow: white 2px 2px 2px;
 }
+body{
+    background-color:#dddddd;
+    background-size: cover;
+}
 
 li {
     display: inline;
@@ -27,30 +31,33 @@ ul {
 *{
     text-align: center;
 }
-body{
-    background-image: url('https://www.mcclureinsure.com/wp-content/uploads/2014/05/Blurred-Background-Light.jpg');
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
-.masthead{
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+.masthead {
+    padding: 6em 0;
+    background-image: url('https://i.imgur.com/yGmrlyg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: solid 1em #FFCF33;
+  }
+h2 {
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
 }
-.introduction{
-    background-color:grey;
-    color: black;
-    font-family: 'Times New Roman';
-    font-size: 15px;
-}
-.location{
-    background-color:grey;
-    color: black;
-    font-family: 'Times New Roman';
-    font-size: 15px;}
+.introduction
+.location,
 .questions{
-    background-color:grey;
-    color: black;
-    font-family: 'Times New Roman';
-    font-size: 15px;}
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
 
 li {
   display: inline;

@@ -1,7 +1,8 @@
 var express= require('express');
 var app= express();
 var path= require('path');
-let app = express();
+//pug set up
+app.set('views', path.join(__dirname, 'views'));
 app.set("view engine", "pug");
 
 
@@ -12,15 +13,15 @@ app.use(express.json());
 app.use(express.static('public'));
 
 app.get("/", function(req, res){
-    res.sendFile(path.join(__dirname, "home.html"))
+    res.render('home');
 });
 
 app.get("/about", function(req, res){
-    res.sendFile(path.join(__dirname, "about.html"))
+    res.render('about')
 });
 
 app.get("/contact", function(req, res){
-    res.sendFile(path.join(__dirname, "contact.html"))
+    res.render('contact')
 });
 
 app.listen(PORT, function(){
